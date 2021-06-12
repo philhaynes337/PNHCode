@@ -1,0 +1,40 @@
+.comingSoon {
+  text-align: center;
+  width: auto;
+}
+h1 {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.center {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  border: blanchedalmond;
+  border-style: solid;
+}
+ 
+.circle {
+  display: flex;
+  box-sizing: border-box;
+  align-items: center;
+  width: 80px;
+  height: 80px;
+  border-radius: 100%;
+  border: 10px solid rgba(255, 255, 255, 0.2);
+  border-top-color: #fff;
+  -webkit-animation: spin 1s infinite linear;
+          animation: spin 1s infinite linear;
+}
+
+@-webkit-keyframes spin {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@keyframes spin {
+  100% {
+    transform: rotate(360deg);
+  }
+}
