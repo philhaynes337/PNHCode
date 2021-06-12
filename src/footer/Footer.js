@@ -1,13 +1,18 @@
 import React, { Component } from 'react';
+import './Footer.css';
 
 class Footer extends Component {
 
     render() {
 
         return(
+            <>
+            <footer>
             <div>
-                Footer
+                Copyright &copy; 2021 PNHCode.com
             </div>
+            </footer>
+            </>
         )
     }
 }

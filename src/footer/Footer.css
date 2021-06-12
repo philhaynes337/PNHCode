@@ -1,0 +1,12 @@
+.footer-s {
+    background-color: #ededed;
+    color: #000000;
+    text-align: center;
+    font-size: 12px;
+}
+footer {
+    display: flex;
+    text-align: center;
+    background-color: #ededed;
+    font-size: 12px;
+}

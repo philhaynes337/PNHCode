@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import './Header.css';
+import Logo from './images/logo.png';
 
 class Header extends Component {
 
@@ -6,7 +8,7 @@ class Header extends Component {
 
         return(
             <div>
-                Header
+                <img src={Logo} alt='PNH Code Logo' className='imgLogo' />
             </div>
         )
     }

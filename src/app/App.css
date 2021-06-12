@@ -1,0 +1,31 @@
+h1 {
+    size: 40px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+}
+
+.menu {
+    padding: 5px;
+}
+
+.content {
+
+    border: #000000;
+    border-style: solid;
+}
+
+header {
+    display: flex;
+    background-color: #FFFFFF;
+    width: 100%;
+
+}
+
