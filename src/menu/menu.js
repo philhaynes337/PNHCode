@@ -20,10 +20,10 @@ class Menu extends Component {
     
 
     <ul id="menu">
-      <a href="#a"><li>Home</li></a>
-      <a href="#a"><li>React</li></a>
-      <a href="#a"><li>About</li></a>
-      <a href="#a"><li>Contact</li></a>
+      <a href='/'><li>Home</li></a>
+      <a href='/reactjs'><li>React</li></a>
+      <a href='/about'><li>About</li></a>
+      <a href='/contact'><li>Contact</li></a>
  
     </ul>
   </div>

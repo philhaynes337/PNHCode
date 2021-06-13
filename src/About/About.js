@@ -1,17 +1,15 @@
 import React, { Component } from 'react';
-import Ads from '../ads/Ads';
 
-class Home extends Component {
+class About extends Component {
 
     render() {
 
         return(
             <div>
-                <Ads />
-                Home Component
+                About Component
             </div>
         )
     }
 }
 
-export default Home;
+export default About;

@@ -14,12 +14,13 @@ h1 {
 
 .menu {
     padding: 5px;
+    background-color: #FFFFFF;
 }
 
 .content {
+    width: 100%;
+    background-color: #FFFFFF;
 
-    border: #000000;
-    border-style: solid;
 }
 
 header {
