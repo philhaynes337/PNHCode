@@ -18,7 +18,7 @@ h1 {
 }
 
 .content {
-    width: 100%;
+    width: 450px;
     background-color: #FFFFFF;
 
 }
@@ -26,7 +26,30 @@ h1 {
 header {
     display: flex;
     background-color: #FFFFFF;
-    width: 100%;
+    width: 450px;
 
 }
+
+@media screen and (max-width: 600px) and (min-width: 450px) {
+    .content {
+        width: 600px;
+    }
+
+    header {
+        width: 600px;
+    }
+
+}
+
+@media screen and (min-width: 600px) {
+    .content {
+        width: auto;
+    }
+
+    header {
+        width: auto;
+    }
+
+}
+
 

@@ -1,0 +1,38 @@
+h1 {
+    text-align: center;
+}
+
+.row-c {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.col-c {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    font-weight: bolder;
+}
+
+.label-c {
+    width: 100px;
+    text-align: right;
+}
+
+.input-c {
+    width: 200px;
+}
+
+textarea {
+    width: 195px;
+    height: 100px;
+}
+
+button {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    font-weight: bolder;
+    border-radius: 5px;
+}

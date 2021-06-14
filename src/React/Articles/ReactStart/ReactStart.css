@@ -1,0 +1,179 @@
+section {
+    width: 300px;
+}
+
+.rs-1 {
+    width: 300px;
+}
+
+.node-img {
+    width: 300px;
+    height: 230px;
+}
+
+.cmd-img {
+    width: 300px;
+    height: 250px;
+}
+
+.row-rs {
+    display: flex;
+    flex-direction: row;
+    border-style: solid;
+    border-width: 1px;
+    
+}
+
+.col-rs {
+    display: flex;
+    flex-direction: column;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.cmd-1 {
+    width: 100px;
+}
+
+.cmd-2 {
+    width: 200px;
+}
+
+.cmd-rs {
+    border-style: solid;
+    border-width: 2px;
+}
+
+.create-img-1 {
+    width: 300px;
+}
+
+.create-img-2 {
+    width: 300px;
+}
+
+.create-img-3 {
+    width: 300px;
+}
+
+.create-img-4 {
+    width: 300px;
+}
+
+.create-img-4 {
+    width: 300px;
+}
+.create-img-5 {
+    width: 300px;
+}
+
+
+@media screen and (max-width: 600px) and (min-width: 450px) {
+    section {
+        width: 450px;
+    }
+    .rs-1 {
+        width: 450px;
+    }
+    
+    .node-img {
+        width: 450px;
+        height: 345px;
+    }
+    
+    .cmd-img {
+        width: 450px;
+        height: 375px;
+    }
+    
+
+    
+
+    
+    .cmd-1 {
+        width: 100px;
+    }
+    
+    .cmd-2 {
+        width: 350px;
+    }
+    
+    
+    .create-img-1 {
+        width: 450px;
+    }
+    
+    .create-img-2 {
+        width: 450px;
+    }
+    
+    .create-img-3 {
+        width: 450px;
+    }
+    
+    .create-img-4 {
+        width: 450px;
+    }
+    
+    .create-img-4 {
+        width: 450px;
+    }
+    .create-img-5 {
+        width: 450px;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    section {
+        width: 600px;
+    }
+    
+    .node-img {
+        width: 600px;
+        height: 460px;
+    }
+    .rs-1 {
+        width: 600px;
+    }
+    
+    .cmd-img {
+        width: 600px;
+        height: 500px;
+    }
+    
+
+    
+
+    
+    .cmd-1 {
+        width: 100px;
+    }
+    
+    .cmd-2 {
+        width: 500px;
+    }
+    
+    
+    .create-img-1 {
+        width: 600px;
+    }
+    
+    .create-img-2 {
+        width: 600px;
+    }
+    
+    .create-img-3 {
+        width: 600px;
+    }
+    
+    .create-img-4 {
+        width: 600px;
+    }
+    
+    .create-img-4 {
+        width: 600px;
+    }
+    .create-img-5 {
+        width: 600px;
+    }
+}

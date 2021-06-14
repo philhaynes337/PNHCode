@@ -9,4 +9,7 @@ footer {
     text-align: center;
     background-color: #ededed;
     font-size: 12px;
+    display: block;
+    margin: 0 auto;
+
 }
