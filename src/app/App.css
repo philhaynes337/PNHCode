@@ -5,6 +5,7 @@ h1 {
 .row {
     display: flex;
     flex-direction: row;
+    background-color: #FFFFFF;
 }
 
 .col {
@@ -13,13 +14,17 @@ h1 {
 }
 
 .menu {
-    padding: 5px;
+    padding: 0px 5px 0px 0px;
     background-color: #FFFFFF;
 }
 
 .content {
     width: 450px;
     background-color: #FFFFFF;
+    border: black;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 5px;
 
 }
 
@@ -32,11 +37,11 @@ header {
 
 @media screen and (max-width: 600px) and (min-width: 450px) {
     .content {
-        width: 600px;
+        width: auto;
     }
 
     header {
-        width: 600px;
+        width: 100%;
     }
 
 }
@@ -47,7 +52,7 @@ header {
     }
 
     header {
-        width: auto;
+        width: 100%;
     }
 
 }

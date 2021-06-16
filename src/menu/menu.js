@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import MenuLinks from './MenuLinks';
 import './menu.css';
 
 class Menu extends Component {
@@ -7,26 +8,33 @@ class Menu extends Component {
 
         return(
             
+          <div>
+            <div className='menu-mob'>
+              <div id="menuToggle">
 
+                <input type="checkbox" />
+                
+                <div className='menu-txt'>
+                  Menu
+                </div>
+                <span></span>
+                <span></span>
+                <span></span>
+                  <ul id="menu">
+                    <MenuLinks />
+                  </ul>
+                
 
-  <div id="menuToggle">
-
-    <input type="checkbox" />
-    
-
-    <span></span>
-    <span></span>
-    <span></span>
-    
-
-    <ul id="menu">
-      <a href='/'><li>Home</li></a>
-      <a href='/reactjs'><li>React</li></a>
-      <a href='/about'><li>About</li></a>
-      <a href='/contact'><li>Contact</li></a>
- 
-    </ul>
-  </div>
+              </div>
+            </div>
+            <div id='menu-desk'>
+              <div id='menuToggle-desk'>
+                <ul id="menu-desk-ul">
+                  <MenuLinks />
+                </ul>
+              </div>
+            </div>
+          </div>
 
             
         )

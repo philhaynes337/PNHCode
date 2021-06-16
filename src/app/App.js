@@ -28,19 +28,20 @@ class App extends Component {
         
         
           <div className='content col'>
-          <Switch>
-                <Route exact path='/' component={Home} />
-                <Route path='/reactjs' component={ReactJs} />
-                <Route path='/about' component={About} />
-                <Route path='/contact' component={Contact} />
-                <Route path='/reactstart' component={ReactStart} />
-          </Switch>
+            <Switch>
+                  <Route exact path='/' component={Home} />
+                  <Route path='/reactjs' component={ReactJs} />
+                  <Route path='/about' component={About} />
+                  <Route path='/contact' component={Contact} />
+                  <Route path='/reactstart' component={ReactStart} />
+            </Switch>
             
           </div>
         </div>
         
-        
+        <footer>
           <Footer />
+        </footer>
         
         
       </>
