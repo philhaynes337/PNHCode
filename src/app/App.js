@@ -9,6 +9,7 @@ import Contact from '../Contact/Contact';
 import Footer from '../footer/Footer';
 //import RouterContent from '../RouterContent/RouterContent';
 import ReactStart from '../React/Articles/ReactStart/ReactStart';
+import ReactHelloWorld from '../React/Articles/HelloWorld/HelloWorld'
 import './App.css';
 
 class App extends Component {
@@ -34,6 +35,7 @@ class App extends Component {
                   <Route path='/about' component={About} />
                   <Route path='/contact' component={Contact} />
                   <Route path='/reactstart' component={ReactStart} />
+                  <Route path='/reacthelloworld' component={ReactHelloWorld} />
             </Switch>
             
           </div>
